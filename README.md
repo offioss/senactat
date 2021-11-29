@@ -1,3 +1,2 @@
 # senactat
-Aprendendo a utilizar o Github e Git no SENAC Tatuapé
-Fazendo a primeira atualização do arquivo
+documentação das atividades desenvolvidas em sala de aula do curso Técnico em Informática do Senac Tatuapé
