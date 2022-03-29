@@ -115,12 +115,12 @@ System
 					Country Code: BR
 					Sate or Province: Guarulhos
 					City: Sao Paulo
-					Organization: Bora para Pratica
-					Organizational Unit: Matriz Bora para Pratica
+					Organization: 
+					Organizational Unit: Matriz 
 			Save
 			
 			Export CA
-				Salvar Arquivo: BoraParaPratica.crt
+				Salvar Arquivo: .crt
 		
 		Certificates
 			Add/Sign
@@ -128,12 +128,12 @@ System
 					Method: Create an internal Certificate
 					Descriptive name: Certificado do pfSense
 				Internal Certificate 
-					Certificate authority: BoraParaPratica
+					Certificate authority: 
 					Key type: RSA
 					Key length: 2048
 					Digest Algorithm: sha256
 					Lifetime (days): 3650
-					Common Name: ptispo01fw01.pti.intra 
+					Common Name: ..intra 
 					Country Code: BR
 					State or Province: Guarulhos
 					City: Sao Paulo
@@ -143,8 +143,8 @@ System
 					Certificate Type: Server Certificate
 					Alternative Names:
 						IP Address: 172.16.1.254
-						FQDN or Hostname: ptispo01fw01
-						FQDN or Hostname: ptispo01fw01.pti.intra
+						FQDN or Hostname: 
+						FQDN or Hostname: ..intra
 			Save
 
 Configuração do suporte ao HTTPS do pfSense
