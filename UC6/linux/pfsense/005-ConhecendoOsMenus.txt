@@ -1,0 +1,9 @@
+Opções dos Menus do pfSense
+01. System (sistema): Configurações gerais do sistema do UTM pfSense;
+02. Interfaces (placas de rede): Configurações gerais das interfaces de rede;
+03. Firewall: Configurações gerais das regras de firewall;
+04. Services (serviços): Configurações gerais dos serviços de rede;
+05. VPN (redes virtuais privadas): Configurações gerais dos serviços de Túnel VPN;
+06. Status (estado/condição): Condições gerais dos serviços de rede;
+07. Diagnostics (diagnóstico): Ferramentas de análise de falhas e diagnostico do sistema;
+08. Help (ajuda): Link de acesso a ajuda da ferramenta UTM pfSense.
