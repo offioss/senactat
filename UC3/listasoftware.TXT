@@ -1,0 +1,41 @@
+Listagem de softwares para manutenção e testes de computadores
+
+Passmark
+
+Aida 64 Extreme
+
+Cinebench R23
+
+IPDT
+
+Unigine Benchmark
+
+Diag (Windows)
+
+Hwmonitor
+
+TestMem5
+
+PCMark 10
+
+Corona Benchmark
+
+Blender
+
+Crystal Disk Info
+
+Crystal Disk Mark
+
+Atto Disk Benchmark
+
+As SSD Benchmark
+
+Otimizador de discos
+
+Verificador de Erros
+
+sfc /scannow
+
+CHKDSK /f
+
+Simulador de defeitos da Intel
