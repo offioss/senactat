@@ -39,7 +39,7 @@ Acessando remotamente o pfSense utilizando o Protocolo SSH
 Terminal
 	ssh admin@172.16.1.254
 	Are you sure want to continue connecting? (yes)
-	Password: pti@2018
+	Password: 
 	0) Logout (SSH only)
 
 Instalando os software PuTTY e FileZilla para o gerenciamento do pfSense
