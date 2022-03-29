@@ -1,0 +1,114 @@
+Alterando a Porta do HTTPS do pfSense
+System
+	Advanced
+		webConfigurator
+			Protocol: HTTPS
+			Port: 10443
+
+Alterando a Porta do Serviço do SSH (Secure Shell) do pfSense
+System
+	Advanced
+		Secure Shell
+			SSH port: 10222
+	Save
+
+Configurando a liberação do Protocolo ICMP na Interface WAN do pfSense
+Firewall
+	Rules
+		WAN
+			ADD
+				Edit Firewall Rule
+					Action: Pass
+					Disabled: OFF
+					Interface: WAN
+					Address Family: IPv4
+					Protocol: ICMP
+					ICMP Subtypes:
+						Echo Reply
+						Echo Request
+				Source
+					Source: any
+				Destination
+					Destination: WAN Address
+				Extra Options
+					Log: ON 
+					Description: Liberação do Protocolo ICMP na Interface WAN
+			Save
+		Apply Changes
+
+Configurando a liberação de acesso remoto ao WebGui do pfSense utilizando o Protocolo HTTPS
+Firewall
+	Rules
+		WAN
+			ADD
+				Edit Firewall Rule
+					Action: Pass
+					Disabled: OFF
+					Interface: WAN
+					Address Family: IPv4
+					Protocol: TCP
+				Source
+					Source: any
+					Advanced: Default
+				Destination
+					Destination: WAN Address
+					Destination Port Range: From: 10443 To: 10443
+				Extra Options
+					Log: ON 
+					Description: Liberação do acesso remoto ao WebGui do pfSense
+			Save
+		Apply Changes
+
+Configurando a liberação de acesso remoto ao Console do pfSense utilizando o Protocolo SSH
+Firewall
+	Rules
+		WAN
+			ADD
+				Edit Firewall Rule
+					Action: Pass
+					Disabled: OFF
+					Interface: WAN
+					Address Family: IPv4
+					Protocol: TCP
+				Source
+					Source: any
+					Advanced: Default
+				Destination
+					Destination: WAN Address
+					Destination Port Range: From: 10222 To: 10222
+				Extra Options
+					Log: ON 
+					Description: Liberação do acesso remoto ao Console do pfSense
+			Save
+		Apply Changes
+
+		+ Separator
+			Liberação do acesso remoto do WebGui e Console do pfSense
+		Save
+
+Gerando a Chave Pública do SSH para a autenticação do usuário  no pfSGB DDR3-SDRA
+
+Criação do usuário de acesso remoto no pfSense
+System
+	User Manager
+		Users
+			+ADD
+				User Properties
+					Defined USER 
+					Disable: OFF
+					Username: 
+					Password: 
+					Confirm Password: 
+					Full name: Robson Vaamonde
+					Expiration date: OFF
+					Custom Settings: OFF
+					Group membership: Member of: boraparapratica
+					Certificate: OFF
+				Keys
+					Authorized SSH Keys: (copiar e colocar a chave RSA do SSH)
+					IPsec Pre-Shared Key: Default
+			Save
+
+Testando o acesso remoto ao pfSense
+	Navegador: https://Endereço_IPv4_WAN:10443
+	SSH: ssh -p 10222 usuário@Endereço_IPv4_WAN
