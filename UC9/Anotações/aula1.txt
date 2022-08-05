@@ -1,0 +1,29 @@
+Lógica de Programação
+
+Material de apoio (slides)
+https://www.slideshare.net/josedeassisfilho/java-primeiros-passos
+
+Preparação do ambiente de desenvolvimento:
+https://www.eclipse.org/downloads/
+1) Instalar o JDK
+2) Instalar o eclipse (Versão Enterprise)
+_______________________________________________
+Eclipse -> Window -> Perspective -> Java
+Dicas:
+Window -> Perspective -> reset perspective (default)
+
+src
+|__ fundamentos
+
+Para gerar o executável, selecionar o projeto com o botão
+direito do mouse -> exportar
+Runnable jar file (executável)
+
+Para executar o Java:
+(console) java -jar hello.jar
+(gráfico) clicar 2x no executável
+
+
+
+
+
