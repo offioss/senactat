@@ -1,0 +1,31 @@
+Estruturas de controle condicional
+- Estruturas condicionais (if else switch case) 
+- Laços de repetições (for while do - while)
+
+Laço for
+
+for (int i = 1; i < 10; i++) {
+			
+}
+
+int i = 1 (criar uma variável)
+- variável usada no laço (início)
+- variável também usada no código dentro do laço
+
+i < 10 (condição)
+
+i++ (incremento) | i + i + 1
+
+___________________________________________________
+while (condição) {
+  //condição verdadeira
+}
+
+do {
+  //condição verdadeira
+} while(condição)
+
+
+
+
+
