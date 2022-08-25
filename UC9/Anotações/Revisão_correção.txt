@@ -1,0 +1,18 @@
+Algorítimio para Calcular o desconto
+
+Exemplo:
+Total: 200.00
+Desconto: 10%
+Total com desconto: 180.00
+
+//variáveis:
+total, desconto, totaldesc (númericas não inteiras)
+
+//entrada:
+total, desconto
+
+//processamento
+totaldesc = total - (total * desconto) / 100
+
+//saída
+totaldesc
