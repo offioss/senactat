@@ -1,0 +1,46 @@
+UC 10
+- Desenvolvimento de sistemas desktop
+"loja física de rua"
+PC (Windows / Linux)
+Rede local
+
+- Banco de dados
+- Linguagem de programação para desktop
+  - POO (Programação orientada a objetos)
+
+Banco de dados
+- relacionais (MySQL)
+- não relacionais (mongodb)
+
+Linguagem de programação
+- java
+
+___________________________________________________
+Projeto 1 - Simples agenda de contatos
+
+Briefing: 
+- Nome do contato (obrigatório)
+- Fone (obrigatório)
+- E-mail (não obrigatório)
+
+Ações
+- Cadastrar um novo contato
+- Alterar os dados de um contato
+- Pesquisar contatos
+- Excluir um contato
+
+____________________________________________________
+Banco de dados:
+Material de apoio:
+https://github.com/professorjosedeassis/mysql
+
+
+
+
+
+
+
+
+
+
+
