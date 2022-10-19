@@ -1,0 +1,12 @@
+CRUD
+
+Create
+Read
+Update
+Delete
+
+4 operações básicas (banco de dados - sistema)
+
+_______________________________________________
+
+POO - Herançae polimorfismo
