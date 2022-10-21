@@ -1,0 +1,13 @@
+CRUD - Update
+
+//template usado na validação de campos obrigatórios
+
+if (Jtext1.getText.isEmpty) {
+  // mensagem
+  Jtext1.requestFocus();
+} else if (Jtext2.getText.isEmpty) {
+  // mensagem
+  Jtext2.requestFocus();
+} else {
+  // lógica principal CRUD
+}
